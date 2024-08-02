@@ -2,7 +2,7 @@ import React, { createContext, useState } from 'react'
 
 const UserContext = createContext(null)
 
-function UserProvider({children, setGetAmazingOffer}) {
+function UserProvider({children}) {
 
     const [menuShow, setmenuShow] = useState(false)
     const [currentPage ,setCurrentPage] = useState(1);
@@ -18,8 +18,14 @@ function UserProvider({children, setGetAmazingOffer}) {
     const [rangePrice, setRangePrice] = useState(false)
     const [BrandsList, setBrandsList] = useState([])
    
+
+    /** loader the Body(Home page) */
+    const [GetAmazingOffer, setGetAmazingOffer] = useState(true)
+    // const [todayPost, setTodayPost] = useState(false)
+    // const [rangePrice, setRangePrice] = useState(false)
+
   return (
-    <UserContext.Provider value={{menuShow, setmenuShow, currentPage, setCurrentPage, minPrice, setMinPrice, maxPrice, setMaxPrice, SortedMaxPrice, setSortedMaxPrice, SortedMinPrice, setSortedMinPrice, SortedMaxPercent, setSortedMaxPercent, BrandsList, setBrandsList, Available, setAvailable, todayPost, setTodayPost, rangePrice, setRangePrice, setGetAmazingOffer}}>
+    <UserContext.Provider value={{menuShow, setmenuShow, currentPage, setCurrentPage, minPrice, setMinPrice, maxPrice, setMaxPrice, SortedMaxPrice, setSortedMaxPrice, SortedMinPrice, setSortedMinPrice, SortedMaxPercent, setSortedMaxPercent, BrandsList, setBrandsList, Available, setAvailable, todayPost, setTodayPost, rangePrice, setRangePrice, setGetAmazingOffer, GetAmazingOffer,}}>
         {children}
     </UserContext.Provider>
   )

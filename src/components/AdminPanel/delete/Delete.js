@@ -1,3 +1,4 @@
+import axios from 'axios'
 import React from 'react'
 import { AiOutlineDelete } from 'react-icons/ai'
 import { useNavigate } from 'react-router-dom'
@@ -21,7 +22,7 @@ function Delete({id}) {
                 text: "Your file has been deleted.",
                 icon: "success"
             });
-            // let {data} = await axios.delete(`https://66478f7d2bb946cf2f9e2a9a.mockapi.io/product/${id}`)
+            let {data} = await axios.delete(`https://66478f7d2bb946cf2f9e2a9a.mockapi.io/product/${id}`)
             navigate(0)
         }
         });
