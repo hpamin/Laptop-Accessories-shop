@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: 'eotIRANSans';
+}
+@layer base {
+  @font-face {
+    font-family: 'eotIRANSans';
+    src: url(./fonts/ttf/IRANSansWeb\(FaNum\).ttf) format('woff2');
+  }
+}
+
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #30AEAB;
+}
+.range-input input::-webkit-slider-thumb{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 3px solid #2268f3;
+  background-color: #fff;
+  pointer-events: all;
+  appearance: none;
+}
+.hideScrollCss::-webkit-scrollbar {
+    display: none;
+}
+.hideScrollCss{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
