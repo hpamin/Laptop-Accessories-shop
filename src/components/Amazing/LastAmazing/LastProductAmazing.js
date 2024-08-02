@@ -15,7 +15,7 @@ function LastProductAmazing() {
 
     const [LastProductAmazing , setLastProductAmazing] = useState(null)
     const LastProductAmazingApi = async () => {
-        const {data} = await axios.get('https://database-laptop-accessories-shop.onrender.com/LastProductAmazing')
+        const {data} = await axios.get('https://dirt-tested-lavender.glitch.me/LastProductAmazing')
         setLastProductAmazing(data)
     }
     useEffect(() => {

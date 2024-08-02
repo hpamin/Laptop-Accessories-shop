@@ -14,7 +14,7 @@ import { NavLink } from 'react-router-dom';
 function MotherBoardMain() {
     const [MotherBoardMain , setMotherBoardMain] = useState(null)
     const MotherBoardMainApi = async () => {
-        const {data} = await axios.get('https://database-laptop-accessories-shop.onrender.com/MotherBoardMain')
+        const {data} = await axios.get('https://dirt-tested-lavender.glitch.me/MotherBoardMain')
         setMotherBoardMain(data)
     }
     useEffect(() => {

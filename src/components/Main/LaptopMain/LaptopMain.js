@@ -15,7 +15,7 @@ function LaptopMain() {
 
     const [LaptopMain , setLaptopMain] = useState(null)
     const LaptopMainApi = async () => {
-        const {data} = await axios.get('https://database-laptop-accessories-shop.onrender.com/LaptopMain')
+        const {data} = await axios.get('https://dirt-tested-lavender.glitch.me/LaptopMain')
         setLaptopMain(data)
     }
     useEffect(() => {

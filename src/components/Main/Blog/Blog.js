@@ -6,7 +6,7 @@ function Blog() {
 
     const [Blog , setBlog] = useState(null)
     const BlogApi = async () => {
-        const {data} = await axios.get('https://database-laptop-accessories-shop.onrender.com/blogMain')
+        const {data} = await axios.get('https://dirt-tested-lavender.glitch.me/blogMain')
         setBlog(data)
     }
     useEffect(() => {

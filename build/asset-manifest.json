@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79d26410.css",
+    "main.js": "/static/js/main.c07953b8.js",
+    "static/js/453.c0c9d933.chunk.js": "/static/js/453.c0c9d933.chunk.js",
+    "static/media/middle-img2.png": "/static/media/middle-img2.de50086d358d607de93f.png",
+    "static/media/middle-img.png": "/static/media/middle-img.d5605ed0420ef1b2a1e9.png",
+    "static/media/amazing (1).jpg": "/static/media/amazing (1).724ad34d52b9766bc3ac.jpg",
+    "static/media/admin-panel-zeroproduct.png": "/static/media/admin-panel-zeroproduct.d505fa385f60ac0b506b.png",
+    "static/media/Gaming-Chair-header.png": "/static/media/Gaming-Chair-header.a4ef57459b378dd923a9.png",
+    "static/media/IRANSansWeb(FaNum).ttf": "/static/media/IRANSansWeb(FaNum).6a10d7a5fb2bcdd12953.ttf",
+    "static/media/amazingmiddle.webp": "/static/media/amazingmiddle.cdbcefdd54265cf4103f.webp",
+    "static/media/box.webp": "/static/media/box.5c6a7cad0f43a1259bd9.webp",
+    "static/media/Amazings.svg": "/static/media/Amazings.f0e33d0be483993600e3d585286140c6.svg",
+    "index.html": "/index.html",
+    "main.79d26410.css.map": "/static/css/main.79d26410.css.map",
+    "main.c07953b8.js.map": "/static/js/main.c07953b8.js.map",
+    "453.c0c9d933.chunk.js.map": "/static/js/453.c0c9d933.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79d26410.css",
+    "static/js/main.c07953b8.js"
+  ]
+}

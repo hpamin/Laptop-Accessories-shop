@@ -14,7 +14,7 @@ import { NavLink } from 'react-router-dom';
 function Monitor() {
   const [Monitor , setMonitor] = useState(null)
     const MonitorApi = async () => {
-        const {data} = await axios.get('https://database-laptop-accessories-shop.onrender.com/Monitor')
+        const {data} = await axios.get('https://dirt-tested-lavender.glitch.me/Monitor')
         setMonitor(data)
     }
     useEffect(() => {

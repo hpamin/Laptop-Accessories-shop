@@ -12,7 +12,7 @@ function FilterAmazing() {
 
     const [Brands , setBrands] = useState(null)
     const BrandsFilter = async () => {
-        const {data} = await axios.get('https://database-laptop-accessories-shop.onrender.com/brandsName')
+        const {data} = await axios.get('https://dirt-tested-lavender.glitch.me/brandsName')
         setBrands(data)
     }
     useEffect(() => {

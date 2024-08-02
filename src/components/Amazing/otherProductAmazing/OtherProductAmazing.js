@@ -17,7 +17,7 @@ function OtherProductAmazing() {
     
     const OtherProductAmazingApi = async () => {
 
-            const {data} = await axios.get(`https://database-laptop-accessories-shop.onrender.com/OtherProductAmazing`)
+            const {data} = await axios.get(`https://dirt-tested-lavender.glitch.me/OtherProductAmazing`)
             const maximumPrice = Math.max(...data.map((item) => item.price))
             const minimumPrice = Math.min(...data.map((item) => item.price))
             setMaxPrice(maximumPrice)

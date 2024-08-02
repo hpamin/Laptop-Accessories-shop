@@ -21,7 +21,7 @@ function AmazingOffer() {
 
     const [AmazingOffer , setAmazingOffer] = useState(null)
     const AmazingOfferApi = async () => {
-        const {data} = await axios.get('https://database-laptop-accessories-shop.onrender.com/AmazingOffer').finally(() => setGetAmazingOffer(false))
+        const {data} = await axios.get('https://dirt-tested-lavender.glitch.me/AmazingOffer').finally(() => setGetAmazingOffer(false))
         setAmazingOffer(data)
     }
     useEffect(() => {

@@ -17,7 +17,7 @@ function AmazingCustom() {
 
     const [AmazingCustom , setAmazingCustom] = useState(null)
     const AmazingCustomApi = async () => {
-        const {data} = await axios.get('https://database-laptop-accessories-shop.onrender.com/AmazingCustom')
+        const {data} = await axios.get('https://dirt-tested-lavender.glitch.me/AmazingCustom')
         setAmazingCustom(data)
     }
     useEffect(() => {
